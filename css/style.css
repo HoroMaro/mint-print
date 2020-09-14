@@ -266,14 +266,14 @@ a .disabled {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     max-height: 1080px;
-    background-color: #A7BCCF;
+    background-color: #BDBD9E;
     /* opacity: .8; */
 }
 
 .footer__inner {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -302,7 +302,7 @@ a .disabled {
 }
 
 .footer__title {
-    color: rgb(241, 241, 241);
+    color: #5A6A5D;
     font-weight: 500;
     font-size: 30px;
 }
@@ -329,7 +329,7 @@ a .disabled {
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
-    background-color: rgba(255, 12, 34, 1);
+    background-color: #5A6A5D;
     color: white;
     padding: 10px 40px;
     cursor: pointer;
