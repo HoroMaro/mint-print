@@ -214,7 +214,9 @@ a .disabled {
     align-items: center;
     height: 100vh;
     max-height: 1080px;
-    background-color: white;
+    background-color: #bdbd9e2c;
+    color: #5A6A5D;
+    /* background-image: url(../assets/index/thirdbackground.png); */
 }
 
 .third__inner {
@@ -222,13 +224,15 @@ a .disabled {
     max-width: 1210px;
     margin: 0 auto;
     text-align: center;
+    /* padding: 5% 10%; */
 }
 
 .third__title {
     font-size: 50px;
     font-weight: 400;
     text-align: center;
-    margin-top: 60px;
+    /* margin-top: 40px; */
+    text-shadow: 3px 3px 1px #BDBD9E;
 }
 
 .third__subtitle {
@@ -242,7 +246,7 @@ a .disabled {
     font-size: 30px;
     font-weight: 400;
     text-align: left;
-    color: red;
+    text-shadow: 3px 3px 1px #BDBD9E;
 }
 
 .third__description {
