@@ -9,7 +9,7 @@ html {
 body {
     margin: 0px;
     font-size: 60px;
-    color: black;
+    color: #BDBD9E;
     background-color: #ffffff;
 }
 
@@ -132,6 +132,7 @@ a .disabled {
     text-transform: uppercase;
     font-size: 60px;
     line-height: 1.3;
+    text-shadow: 4px 4px 1px #5A6A5D;
 }
 
 .first__subtitle {
