@@ -229,12 +229,8 @@ a .disabled {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    text-align: right;
+    text-align: center;
     /* margin: 0 60px; */
-}
-
-.text-left {
-    text-align: left;
 }
 
 .second__construction__content__mark {
