@@ -309,6 +309,41 @@ a .disabled {
 
 /* ======================================================== */
 
+.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    max-height: 1080px;
+    background-color: #bdbd9e2c;
+    color: #5A6A5D;
+    /* background-image: url(../assets/index/thirdbackground.png); */
+}
+
+.fourth__inner {
+    width: 85%;
+    max-width: 1210px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 5% 10%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fourth__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth__content h1{
+    text-transform: uppercase;
+}
+
+.fourth__img {
+    width: ;
+}
 
 /* Підвал================================================== */
 
