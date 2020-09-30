@@ -638,6 +638,11 @@ ul {
     text-decoration: none;
 }
 
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
 .fourth__nav__link:hover {
     color: white;
 }
@@ -646,6 +651,7 @@ ul {
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
 }
 
 .images {
@@ -662,25 +668,71 @@ ul {
     height: 300px;
 }
 
+.main__content__text__left,
+.main__content__text__right {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.main__content__text__left__div {
+    width: 50%;
+}
+
+.main__content__text__right__div {
+    width: 50%;
+}
+
 .main__content__text {
+    display: flex;
     width: 80%;
     background-color: #BDBD9E;
     border-radius: 45px;
+    padding: 2rem;
 }
 
-.order__fourth__title {
-    font-size: 40px;
+.fourth__subnav {
+    margin-bottom: 15px;
 }
 
-.order__fourth__table {
+.fourth__subnav__link_w,
+.fourth__subnav__link_m,
+.fourth__subnav__link_b {
+    font-size: 25px;
+    color: #BDBD9E;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.fourth__subnav__link_w:hover,
+.fourth__subnav__link_m:hover,
+.fourth__subnav__link_b:hover {
+    text-decoration: none;
+}
+
+.order__table__tshirts {
+    width: 80%;
+}
+
+.order__table__tshirts table {
     width: 100%;
+    border: 2px solid#aaaa91;
+}
+
+.green {
+    background-color: #596b5d;
+}
+
+.svgreen {
+    background-color: #aaaa91;
 }
 
 .order__fourth__table,
 .order__fourth__table tr,
 .order__fourth__table td {
     font-size: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    color: black;
 }
 
 .order__fourth__sizes__img {
