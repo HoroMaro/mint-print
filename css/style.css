@@ -723,6 +723,22 @@ ul {
     border: 2px solid#aaaa91;
 }
 
+.order__fourth__table td {
+    width: 25%;
+}
+
+.tol td {
+    width: 20% !important;
+}
+
+.tol-b td {
+    width: 16.66% !important;
+}
+
+.mt {
+    margin-top: 40px;
+}
+
 .green {
     background-color: #596b5d;
 }
