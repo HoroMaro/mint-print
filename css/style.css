@@ -755,6 +755,12 @@ ul {
     color: black;
 }
 
+.order__subtitle__under__table {
+    font-size: 20px;
+    color: #BDBD9E;
+    margin: 15px;
+}
+
 .order__fourth__sizes__img {
     width: 400px;
 }
