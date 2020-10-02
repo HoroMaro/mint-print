@@ -472,6 +472,7 @@ ul {
     margin-top: 150px;
     text-transform: uppercase;
     color: white;
+    text-shadow: 2px 2px 8px #5a6a5d;
 }
 
 .order__first__subtitle {
@@ -479,6 +480,7 @@ ul {
     font-size: 40px;
     text-transform: uppercase;
     color: white;
+    text-shadow: 2px 2px 8px #5a6a5d;
 }
 
 .order__first__get {
