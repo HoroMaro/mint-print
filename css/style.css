@@ -272,6 +272,7 @@ a .disabled {
 .second__construction__img__chek3 {
     height: 50vh;
     background-image: url(../assets/index/second__chek__img3.jpg);
+    /* background-image: url(../assets/index/IMG_1471.MOV); */
     background-position: center;
     background-size: cover;
 }
