@@ -1,303 +1,303 @@
-                        /* ПК */
-                        
-                        @media only screen and (max-width: 1336px) and (max-height: 768px) {
-                            .second__construction__content__title {
-                                font-size: 40px;
-                            }
-                            .second__construction__content__text {
-                                font-size: 25px;
-                            }
-                            .second__construction__content__subtitle {
-                                font-size: 25px;
-                            }
-                            .second__construction__content__text__last li {
-                                font-size: 25px;
-                            }
-                            .footer {
-                                height: 70vh;
-                            }
-                            .footer__copyright {
-                                margin-top: 15px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1440px) and (max-height: 1080px) {
-                            .second__construction__content__subtitle {
-                                margin: 0 10px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1280px) and (max-height: 1024px) {
-                            .second__construction__content__subtitle {
-                                font-size: 35px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1440px) and (max-height: 900px) {
-                            .second__construction__content__subtitle {
-                                font-size: 35px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1280px) and (max-height: 864px) {
-                            .second__construction__content__text__last li {
-                                font-size: 20px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1366px) and (max-height: 768px) {
-                            .second__construction__content__text__last li {
-                                font-size: 20px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1152px) and (max-height: 768px) {
-                            .third__description {
-                                font-size: 30px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1024px) and (max-height: 768px) {
-                            .second__construction__content__subtitle {
-                                font-size: 30px;
-                            }
-                            .footer__title {
-                                font-size: 25px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1280px) and (max-height: 720px) {
-                            .third__description {
-                                font-size: 30px;
-                            }
-                            .footer__copyright {
-                                margin-bottom: 0px;
-                                font-size: 15px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 1152px) and (max-height: 720px) {
-                            .first__subtitle {
-                                margin: 20px 0 20px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 960px) and (max-height: 720px) {
-                            .third__description {
-                                font-size: 25px;
-                            }
-                            .second__construction__content__subtitle {
-                                font-size: 25px;
-                            }
-                            .second__construction__content__text__last li {
-                                font-size: 18px;
-                            }
-                        }
-                        /* телефони */
-                        
-                        @media only screen and (max-width: 414px) and (max-height: 736px) {
-                            .header__menu nav {
-                                display: flex;
-                                justify-content: center;
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            a.nav__link {
-                                margin: 0;
-                            }
-                            .nav__link__img {
-                                margin-right: 5px;
-                            }
-                            .first__inner h1 {
-                                font-size: 25px;
-                            }
-                            .first__inner p {
-                                font-size: 20px;
-                            }
-                            .first__btn {
-                                font-size: 20px;
-                            }
-                            .second__construction__content__title {
-                                font-size: 20px;
-                            }
-                            .second__construction__content__mark {
-                                width: 20px;
-                            }
-                            .second__construction__content__text {
-                                font-size: 15px;
-                                margin: 0 8px;
-                            }
-                            .second__construction__content__subtitle {
-                                font-size: 20px;
-                            }
-                            .second__construction__content__text__last li {
-                                font-size: 15px;
-                                margin: 0;
-                            }
-                            .third__title {
-                                font-size: 30px;
-                            }
-                            .third__subtitle {
-                                font-size: 25px;
-                            }
-                            .third__description {
-                                font-size: 20px;
-                            }
-                            .third__subtitle__description {
-                                font-size: 20px;
-                            }
-                            .footer__icon {
-                                width: 70px;
-                            }
-                            .footer__contucts__item {
-                                width: 80%;
-                            }
-                            .footer__contucts {
-                                margin-top: 10px;
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            .footer {
-                                height: 90vh;
-                            }
-                            .footer__sumbit__btn {
-                                width: 60%;
-                            }
-                            .footer__inner {
-                                height: 90vh;
-                            }
-                        }
-                        
-                        @media only screen and (orientation: landscape) and (max-width: 736px) and (max-height: 414px) {
-                            a.nav__link {
-                                margin: 0;
-                            }
-                            .nav__link__img {
-                                margin-right: 5px;
-                            }
-                            .t1 {
-                                margin-top: 60px;
-                            }
-                            .first__inner h1 {
-                                font-size: 25px;
-                            }
-                            .first__inner p {
-                                font-size: 20px;
-                            }
-                            .first__btn {
-                                font-size: 20px;
-                            }
-                            .second__construction__content__title {
-                                font-size: 20px;
-                            }
-                            .second__construction__content__mark {
-                                width: 20px;
-                            }
-                            .second__construction__content__text {
-                                font-size: 15px;
-                                margin: 0 8px;
-                            }
-                            .second__construction__content__subtitle {
-                                font-size: 20px;
-                            }
-                            .second__construction__content__text__last li {
-                                font-size: 15px;
-                                margin: 0;
-                            }
-                            .third__title {
-                                font-size: 20px;
-                            }
-                            .third__subtitle {
-                                font-size: 25px;
-                            }
-                            .third__description {
-                                font-size: 18px;
-                            }
-                            .third__subtitle__description {
-                                font-size: 18px;
-                            }
-                            .footer__icon {
-                                width: 50px;
-                            }
-                            .footer__contucts__item {
-                                width: 80%;
-                            }
-                            .footer__contucts {
-                                margin-top: 0px;
-                                display: flex;
-                                /* flex-direction: column;
+                                /* ПК */
+                                
+                                @media only screen and (max-width: 1336px) and (max-height: 768px) {
+                                    .second__construction__content__title {
+                                        font-size: 40px;
+                                    }
+                                    .second__construction__content__text {
+                                        font-size: 25px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 25px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 25px;
+                                    }
+                                    .footer {
+                                        height: 70vh;
+                                    }
+                                    .footer__copyright {
+                                        margin-top: 15px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1440px) and (max-height: 1080px) {
+                                    .second__construction__content__subtitle {
+                                        margin: 0 10px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1280px) and (max-height: 1024px) {
+                                    .second__construction__content__subtitle {
+                                        font-size: 35px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1440px) and (max-height: 900px) {
+                                    .second__construction__content__subtitle {
+                                        font-size: 35px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1280px) and (max-height: 864px) {
+                                    .second__construction__content__text__last li {
+                                        font-size: 20px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1366px) and (max-height: 768px) {
+                                    .second__construction__content__text__last li {
+                                        font-size: 20px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1152px) and (max-height: 768px) {
+                                    .third__description {
+                                        font-size: 30px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1024px) and (max-height: 768px) {
+                                    .second__construction__content__subtitle {
+                                        font-size: 30px;
+                                    }
+                                    .footer__title {
+                                        font-size: 25px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1280px) and (max-height: 720px) {
+                                    .third__description {
+                                        font-size: 30px;
+                                    }
+                                    .footer__copyright {
+                                        margin-bottom: 0px;
+                                        font-size: 15px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 1152px) and (max-height: 720px) {
+                                    .first__subtitle {
+                                        margin: 20px 0 20px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 960px) and (max-height: 720px) {
+                                    .third__description {
+                                        font-size: 25px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 25px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 18px;
+                                    }
+                                }
+                                /* телефони */
+                                
+                                @media only screen and (max-width: 414px) and (max-height: 736px) {
+                                    .header__menu nav {
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    a.nav__link {
+                                        margin: 0;
+                                    }
+                                    .nav__link__img {
+                                        margin-right: 5px;
+                                    }
+                                    .first__inner h1 {
+                                        font-size: 25px;
+                                    }
+                                    .first__inner p {
+                                        font-size: 20px;
+                                    }
+                                    .first__btn {
+                                        font-size: 20px;
+                                    }
+                                    .second__construction__content__title {
+                                        font-size: 20px;
+                                    }
+                                    .second__construction__content__mark {
+                                        width: 20px;
+                                    }
+                                    .second__construction__content__text {
+                                        font-size: 15px;
+                                        margin: 0 8px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 20px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 15px;
+                                        margin: 0;
+                                    }
+                                    .third__title {
+                                        font-size: 30px;
+                                    }
+                                    .third__subtitle {
+                                        font-size: 25px;
+                                    }
+                                    .third__description {
+                                        font-size: 20px;
+                                    }
+                                    .third__subtitle__description {
+                                        font-size: 20px;
+                                    }
+                                    .footer__icon {
+                                        width: 70px;
+                                    }
+                                    .footer__contucts__item {
+                                        width: 80%;
+                                    }
+                                    .footer__contucts {
+                                        margin-top: 10px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    .footer {
+                                        height: 90vh;
+                                    }
+                                    .footer__sumbit__btn {
+                                        width: 60%;
+                                    }
+                                    .footer__inner {
+                                        height: 90vh;
+                                    }
+                                }
+                                
+                                @media only screen and (orientation: landscape) and (max-width: 736px) and (max-height: 414px) {
+                                    a.nav__link {
+                                        margin: 0;
+                                    }
+                                    .nav__link__img {
+                                        margin-right: 5px;
+                                    }
+                                    .t1 {
+                                        margin-top: 60px;
+                                    }
+                                    .first__inner h1 {
+                                        font-size: 25px;
+                                    }
+                                    .first__inner p {
+                                        font-size: 20px;
+                                    }
+                                    .first__btn {
+                                        font-size: 20px;
+                                    }
+                                    .second__construction__content__title {
+                                        font-size: 20px;
+                                    }
+                                    .second__construction__content__mark {
+                                        width: 20px;
+                                    }
+                                    .second__construction__content__text {
+                                        font-size: 15px;
+                                        margin: 0 8px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 20px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 15px;
+                                        margin: 0;
+                                    }
+                                    .third__title {
+                                        font-size: 20px;
+                                    }
+                                    .third__subtitle {
+                                        font-size: 25px;
+                                    }
+                                    .third__description {
+                                        font-size: 18px;
+                                    }
+                                    .third__subtitle__description {
+                                        font-size: 18px;
+                                    }
+                                    .footer__icon {
+                                        width: 50px;
+                                    }
+                                    .footer__contucts__item {
+                                        width: 80%;
+                                    }
+                                    .footer__contucts {
+                                        margin-top: 0px;
+                                        display: flex;
+                                        /* flex-direction: column;
                             align-items: center; */
-                            }
-                            .footer {
-                                height: 90vh;
-                            }
-                            .footer__sumbit__btn {
-                                width: 60%;
-                            }
-                            .footer__inner {
-                                height: 90vh;
-                            }
-                            .footer__copyright {
-                                margin-top: 0px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 375px) and (max-height: 667px) {
-                            .second__construction__content__text__last li {
-                                font-size: 13px;
-                            }
-                            .second__construction__content__subtitle {
-                                font-size: 15px;
-                            }
-                            .third__title {
-                                font-size: 25px;
-                            }
-                            .third__subtitle {
-                                font-size: 20px;
-                            }
-                            .third__description {
-                                font-size: 18px;
-                            }
-                            .footer__title {
-                                font-size: 18px;
-                            }
-                            .footer__copyright {
-                                margin-top: 0px;
-                                font-size: 15px;
-                            }
-                        }
-                        
-                        @media only screen and (orientation: landscape) and (max-width: 667px) and (max-height: 375px) {
-                            .t1 {
-                                margin-top: 85px;
-                            }
-                            .second__construction__content__text__last li {
-                                font-size: 13px;
-                            }
-                            .second__construction__content__subtitle {
-                                font-size: 15px;
-                            }
-                            .third__title {
-                                font-size: 25px;
-                            }
-                            .third__subtitle {
-                                font-size: 20px;
-                            }
-                            .third__description {
-                                font-size: 15px;
-                            }
-                            .footer__title {
-                                font-size: 18px;
-                            }
-                            .footer__copyright {
-                                margin-top: 0px;
-                                font-size: 15px;
-                            }
-                        }
-                        
-                        @media only screen and (max-width: 360px) and (max-height: 640px) {
-                            .t1 {
+                                    }
+                                    .footer {
+                                        height: 90vh;
+                                    }
+                                    .footer__sumbit__btn {
+                                        width: 60%;
+                                    }
+                                    .footer__inner {
+                                        height: 90vh;
+                                    }
+                                    .footer__copyright {
+                                        margin-top: 0px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 375px) and (max-height: 667px) {
+                                    .second__construction__content__text__last li {
+                                        font-size: 13px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 15px;
+                                    }
+                                    .third__title {
+                                        font-size: 25px;
+                                    }
+                                    .third__subtitle {
+                                        font-size: 20px;
+                                    }
+                                    .third__description {
+                                        font-size: 18px;
+                                    }
+                                    .footer__title {
+                                        font-size: 18px;
+                                    }
+                                    .footer__copyright {
+                                        margin-top: 0px;
+                                        font-size: 15px;
+                                    }
+                                }
+                                
+                                @media only screen and (orientation: landscape) and (max-width: 667px) and (max-height: 375px) {
+                                    .t1 {
+                                        margin-top: 85px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 13px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 15px;
+                                    }
+                                    .third__title {
+                                        font-size: 25px;
+                                    }
+                                    .third__subtitle {
+                                        font-size: 20px;
+                                    }
+                                    .third__description {
+                                        font-size: 15px;
+                                    }
+                                    .footer__title {
+                                        font-size: 18px;
+                                    }
+                                    .footer__copyright {
+                                        margin-top: 0px;
+                                        font-size: 15px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 360px) and (max-height: 640px) {
+                                    /* .t1 {
                                 margin-top: 100px;
                             }
                             .first__btn {
@@ -308,32 +308,180 @@
                             }
                             .first__inner p {
                                 font-size: 15px;
-                            }
-                            .third__description {
-                                font-size: 17px;
-                            }
-                            .footer__copyright {
-                                font-size: 12px;
-                            }
-                        }
-                        
-                        @media only screen and (orientation: landscape) and (max-width: 640px) and (max-height: 360px) {
-                            .t1 {
-                                margin-top: 100px;
-                            }
-                            .first__btn {
-                                font-size: 10px;
-                            }
-                            .first__inner h1 {
-                                font-size: 20px;
-                            }
-                            .first__inner p {
-                                font-size: 15px;
-                            }
-                            .third__description {
-                                font-size: 15px;
-                            }
-                            .footer__copyright {
-                                font-size: 12px;
-                            }
-                        }
+                            } */
+                                    .nav {
+                                        font-size: 15px;
+                                    }
+                                    .third__description {
+                                        font-size: 17px;
+                                    }
+                                    .footer__copyright {
+                                        font-size: 12px;
+                                    }
+                                }
+                                
+                                @media only screen and (orientation: landscape) and (max-width: 640px) and (max-height: 360px) {
+                                    .t1 {
+                                        margin-top: 100px;
+                                    }
+                                    .first__btn {
+                                        font-size: 10px;
+                                    }
+                                    .first__inner h1 {
+                                        font-size: 20px;
+                                    }
+                                    .first__inner p {
+                                        font-size: 15px;
+                                    }
+                                    .third__description {
+                                        font-size: 15px;
+                                    }
+                                    .footer__copyright {
+                                        font-size: 12px;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 320px) and (max-height: 480px) {
+                                    .t1 {
+                                        margin-top: 40px;
+                                    }
+                                    .header__logo__img {
+                                        width: 130px;
+                                    }
+                                    .nav {
+                                        font-size: 15px;
+                                    }
+                                    .second__construction__content__text {
+                                        font-size: 13px;
+                                    }
+                                    .second__construction__content__title {
+                                        font-size: 15px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 13px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 10px;
+                                    }
+                                    .third__title {
+                                        font-size: 20px;
+                                    }
+                                    .third__subtitle {
+                                        font-size: 18px;
+                                        margin: 0;
+                                    }
+                                    .third__subtitle__description {
+                                        font-size: 15px;
+                                    }
+                                    .third__description {
+                                        font-size: 15px;
+                                    }
+                                    .footer__icon {
+                                        width: 50px;
+                                    }
+                                    .footer__title {
+                                        font-size: 15px;
+                                    }
+                                    .third__description {
+                                        font-size: 15px;
+                                    }
+                                    .footer__copyright {
+                                        font-size: 12px;
+                                    }
+                                    .f1 {
+                                        height: 100%;
+                                    }
+                                    .footer {
+                                        height: 120vh;
+                                    }
+                                }
+                                
+                                @media only screen and (orientation: landscape) and (max-width: 480px) and (max-height: 320px) {
+                                    a.nav__link {
+                                        margin: 0;
+                                    }
+                                    .nav {
+                                        font-size: 15px;
+                                    }
+                                    .nav__link__img {
+                                        margin-right: 5px;
+                                    }
+                                    .header__logo__img {
+                                        height: 70px;
+                                    }
+                                    .t1 {
+                                        margin-top: 90px;
+                                    }
+                                    .first__inner h1 {
+                                        font-size: 20px;
+                                    }
+                                    .first__inner p {
+                                        font-size: 15px;
+                                    }
+                                    .first__btn {
+                                        font-size: 10px;
+                                    }
+                                    .first__subtitle {
+                                        margin-bottom: 0;
+                                    }
+                                    .second__construction__content__title {
+                                        font-size: 15px;
+                                    }
+                                    .second__construction__content__mark {
+                                        width: 16px;
+                                    }
+                                    .second__construction__content__text {
+                                        font-size: 12px;
+                                        margin: 0 8px;
+                                    }
+                                    .second__construction__content__subtitle {
+                                        font-size: 15px;
+                                    }
+                                    .second__construction__content__text__last li {
+                                        font-size: 10px;
+                                        margin: 0;
+                                    }
+                                    .third__title {
+                                        font-size: 18px;
+                                    }
+                                    .third__subtitle {
+                                        font-size: 17px;
+                                    }
+                                    .third__description {
+                                        font-size: 12px;
+                                    }
+                                    .footer__title {
+                                        font-size: 15px;
+                                    }
+                                    .third__subtitle__description {
+                                        font-size: 15px;
+                                    }
+                                    .footer__icon {
+                                        width: 50px;
+                                    }
+                                    .footer__contucts__item {
+                                        width: 80%;
+                                    }
+                                    .footer__contucts {
+                                        margin-top: 0px;
+                                        display: flex;
+                                        /* flex-direction: column;
+                            align-items: center; */
+                                    }
+                                    .f1 {
+                                        height: 100%;
+                                    }
+                                    .footer {
+                                        height: 105vh;
+                                    }
+                                    .footer__sumbit__btn {
+                                        width: 60%;
+                                        font-size: 15px;
+                                    }
+                                    .footer__inner {
+                                        height: 90vh;
+                                    }
+                                    .footer__copyright {
+                                        margin-top: 0px;
+                                    }
+                                }
