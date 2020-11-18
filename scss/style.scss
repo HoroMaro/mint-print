@@ -1,6 +1,20 @@
 // Специфікація
 body {
+    background-color: #f4f4ee;
     font-family: 'Oswald', sans-serif;
+}
+div{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
 }
 // фони
 .background{
@@ -57,5 +71,36 @@ li .active{
     button {
         font-size: 2.34vw;
         text-transform: uppercase;
+    }
+}
+// Другий блок
+%arguments-background-image-props {
+    background-size: cover;
+    background-position: center;
+}
+.arguments{
+    padding: 0 3.125vw !important;
+    height: 50vh;
+    &__first{
+        background-image: url(../assets/index/second__time__img.jpg);
+        @extend %arguments-background-image-props;
+    }
+    &__second{
+        background-image: url(../assets/index/second__chek__img.jpg);
+        @extend %arguments-background-image-props;
+    }
+    &__third{
+        background-image: url(../assets/index/second__money__img.jpg);
+        @extend %arguments-background-image-props;
+    }
+    &__icons{
+        width: 2.08vw;
+    }
+    h1{
+        text-transform: capitalize;
+        font-size: 2.6vw;
+    }
+    p{
+        font-size: 1.56vw;
     }
 }

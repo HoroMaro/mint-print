@@ -1,5 +1,23 @@
 body {
+  background-color: #f4f4ee;
   font-family: "Oswald", sans-serif;
+}
+
+div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
 }
 
 .background__intro {
@@ -53,6 +71,35 @@ li .active {
 .intro button {
   font-size: 2.34vw;
   text-transform: uppercase;
+}
+
+.arguments__third, .arguments__second, .arguments__first {
+  background-size: cover;
+  background-position: center;
+}
+
+.arguments {
+  padding: 0 3.125vw !important;
+  height: 50vh;
+}
+.arguments__first {
+  background-image: url(../assets/index/second__time__img.jpg);
+}
+.arguments__second {
+  background-image: url(../assets/index/second__chek__img.jpg);
+}
+.arguments__third {
+  background-image: url(../assets/index/second__money__img.jpg);
+}
+.arguments__icons {
+  width: 2.08vw;
+}
+.arguments h1 {
+  text-transform: capitalize;
+  font-size: 2.6vw;
+}
+.arguments p {
+  font-size: 1.56vw;
 }
 
 /*# sourceMappingURL=style.css.map */
