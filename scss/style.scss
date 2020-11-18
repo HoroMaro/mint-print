@@ -1,3 +1,35 @@
+// Специфікація
+body {
+    font-family: 'Oswald', sans-serif;
+}
+// фони
+.background{
+    &__first{
+        background-image: url(../assets/index/first_container_background.jpg);
+        min-height: 100vh;
+        background-size: cover;
+    }
+}
+// Колір фону навігації
+nav{
+    background-color: #5a6a5dd3 !important;
+}
+// Розміри картинок в навігації
 a.navbar-brand img{
     width: 7.81vw;
+}
+.nav__social{
+    width: 2.6vw;
+}
+// Налаштування навігаційних посилань
+a.nav-link{
+    font-family: 'IBM Plex Serif', serif !important;
+    color: #E0E0DE !important;
+    text-transform: uppercase !important;
+    &:hover{
+        color: #EDEDEB !important;
+    }
+}
+li .active{
+    color: #ffffff !important;
 }

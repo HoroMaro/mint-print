@@ -1,5 +1,36 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.background__first {
+  background-image: url(../assets/index/first_container_background.jpg);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+nav {
+  background-color: #5a6a5dd3 !important;
+}
+
 a.navbar-brand img {
   width: 7.81vw;
+}
+
+.nav__social {
+  width: 2.6vw;
+}
+
+a.nav-link {
+  font-family: "IBM Plex Serif", serif !important;
+  color: #E0E0DE !important;
+  text-transform: uppercase !important;
+}
+a.nav-link:hover {
+  color: #EDEDEB !important;
+}
+
+li .active {
+  color: #ffffff !important;
 }
 
 /*# sourceMappingURL=style.css.map */
