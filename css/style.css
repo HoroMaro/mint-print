@@ -106,8 +106,13 @@ li .active {
   font-size: 1.56vw;
 }
 
+.more img {
+  height: 27.7vh;
+  padding: 2vh;
+}
 .more__social {
   width: 3.5vw;
+  height: 100% !important;
 }
 .more p {
   font-size: 2.6vw;

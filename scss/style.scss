@@ -109,8 +109,13 @@ li .active{
 }
 // Третій блок
 .more{
+    img{
+        height: 27.7vh;
+        padding: 2vh;
+    }
     &__social{
         width: 3.5vw;
+        height: 100% !important;
     }
     p{
     font-size: 2.6vw;
