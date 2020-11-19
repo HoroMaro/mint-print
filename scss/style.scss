@@ -22,6 +22,9 @@ div{
 a:hover {
     text-decoration: none;
 }
+a.disable {
+    pointer-events: none;
+}
 // фони
 .background{
     &__intro{
@@ -43,7 +46,7 @@ a.navbar-brand img{
 }
 // Налаштування навігаційних посилань
 a.nav-link{
-    font-family: 'IBM Plex Serif', serif !important;
+    font-family: 'Pacifico', cursive !important;
     color: #E0E0DE !important;
     text-transform: uppercase !important;
     &:hover{
@@ -129,6 +132,7 @@ li .active{
 .propos {
     img{
         transform: rotate(15deg);
+        width: 80%;
     }
     p{ 
         font-size: 2.34vw;
@@ -137,5 +141,43 @@ li .active{
         font-size: 1.5vw;
         background-color: #5A6A5D;
         color: white;
+    }
+}
+// П'ятий блок
+.order{
+    li{
+        list-style-type: decimal;
+    }
+    h1{
+        font-size: 3.125vw;
+    }
+    h3{
+        font-size: 2.34vw;
+    }
+    h3,h1 {
+        font-weight: 400;
+    }
+    li,p{ 
+        font-weight: 300;
+        font-size: 2vw;
+    }
+}
+// підвал
+.callback{
+    background-color: #BDBD9E;
+    button{
+        background-color: #5A6A5D;
+        color: white;
+        text-transform: uppercase;
+    }
+    input{
+        width: 40vw;
+    }
+    img {
+        width: 5vw;
+    }
+    p{
+        color: #5A6A5D;
+        font-size: 3.125vw;
     }
 }

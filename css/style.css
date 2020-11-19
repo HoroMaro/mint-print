@@ -28,6 +28,10 @@ a:hover {
   text-decoration: none;
 }
 
+a.disable {
+  pointer-events: none;
+}
+
 .background__intro {
   background-image: url(../assets/index/first_container_background.jpg);
   min-height: 100vh;
@@ -47,7 +51,7 @@ a.navbar-brand img {
 }
 
 a.nav-link {
-  font-family: "IBM Plex Serif", serif !important;
+  font-family: "Pacifico", cursive !important;
   color: #E0E0DE !important;
   text-transform: uppercase !important;
 }
@@ -125,6 +129,7 @@ li .active {
 
 .propos img {
   transform: rotate(15deg);
+  width: 80%;
 }
 .propos p {
   font-size: 2.34vw;
@@ -133,6 +138,42 @@ li .active {
   font-size: 1.5vw;
   background-color: #5A6A5D;
   color: white;
+}
+
+.order li {
+  list-style-type: decimal;
+}
+.order h1 {
+  font-size: 3.125vw;
+}
+.order h3 {
+  font-size: 2.34vw;
+}
+.order h3, .order h1 {
+  font-weight: 400;
+}
+.order li, .order p {
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+.callback {
+  background-color: #BDBD9E;
+}
+.callback button {
+  background-color: #5A6A5D;
+  color: white;
+  text-transform: uppercase;
+}
+.callback input {
+  width: 40vw;
+}
+.callback img {
+  width: 5vw;
+}
+.callback p {
+  color: #5A6A5D;
+  font-size: 3.125vw;
 }
 
 /*# sourceMappingURL=style.css.map */
