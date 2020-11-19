@@ -7,6 +7,9 @@ div{
     margin: 0 !important;
     padding: 0 !important;
 }
+.fw-200{
+    font-weight: 200;
+}
 .fw-300{
     font-weight: 300;
 }
@@ -110,14 +113,27 @@ li .active{
 // Третій блок
 .more{
     img{
-        height: 27.7vh;
+        height: 20.7vh;
         padding: 2vh;
     }
     &__social{
         width: 3.5vw;
         height: 100% !important;
+        padding: 0 !important;
     }
     p{
     font-size: 2.6vw;
     }
 } 
+// Четвертий блок
+.propos {
+    img{
+        transform: rotate(15deg);
+    }
+    p{ 
+        font-size: 2.34vw;
+    }
+    button{
+        font-size: 1.5vw;
+    }
+}
