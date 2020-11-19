@@ -32,6 +32,14 @@ a.disable {
   pointer-events: none;
 }
 
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(../fonts/gilroy-bold.ttf);
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/gilroy-regular.ttf);
+}
 .background__intro {
   background-image: url(../assets/index/first_container_background.jpg);
   min-height: 100vh;
@@ -51,7 +59,7 @@ a.navbar-brand img {
 }
 
 a.nav-link {
-  font-family: "Pacifico", cursive !important;
+  font-family: "Gilroy Bold";
   color: #E0E0DE !important;
   text-transform: uppercase !important;
 }
@@ -67,12 +75,14 @@ li .active {
   height: 100vh !important;
 }
 .intro h1 {
+  font-family: "Gilroy Bold";
   text-transform: uppercase;
   font-size: 3.125vw;
   color: #BDBD9E;
   text-shadow: 0.2vw 0.2vw 0.05vw #5A6A5D;
 }
 .intro p {
+  font-family: "Gilroy";
   margin-top: 1.85vh !important;
   margin-bottom: 5.5vh !important;
   color: #BDBD9E;

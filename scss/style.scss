@@ -25,6 +25,15 @@ a:hover {
 a.disable {
     pointer-events: none;
 }
+// Локальні шрифти
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url(../fonts/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-regular.ttf);
+}
 // фони
 .background{
     &__intro{
@@ -46,7 +55,8 @@ a.navbar-brand img{
 }
 // Налаштування навігаційних посилань
 a.nav-link{
-    font-family: 'Pacifico', cursive !important;
+    font-family: 'Gilroy Bold';
+    // font-family: 'Pacifico', cursive !important;
     color: #E0E0DE !important;
     text-transform: uppercase !important;
     &:hover{
@@ -62,6 +72,7 @@ li .active{
     height: 100vh !important;
     // Заголовок
     h1{
+        font-family: 'Gilroy Bold';
         text-transform: uppercase;
         font-size: 3.125vw;
         color: #BDBD9E;
@@ -69,6 +80,7 @@ li .active{
     }
     // Контент
     p{  
+        font-family: 'Gilroy';
         margin-top: 1.85vh !important;
         margin-bottom: 5.5vh !important;
         color: #BDBD9E;
