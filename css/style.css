@@ -20,6 +20,10 @@ div {
   font-weight: 500;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .background__intro {
   background-image: url(../assets/index/first_container_background.jpg);
   min-height: 100vh;
@@ -100,6 +104,13 @@ li .active {
 }
 .arguments p {
   font-size: 1.56vw;
+}
+
+.more__social {
+  width: 3.5vw;
+}
+.more p {
+  font-size: 2.6vw;
 }
 
 /*# sourceMappingURL=style.css.map */
