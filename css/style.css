@@ -131,6 +131,8 @@ li .active {
 }
 .propos button {
   font-size: 1.5vw;
+  background-color: #5A6A5D;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
